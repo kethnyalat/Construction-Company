@@ -9,13 +9,81 @@ body {
     color:lightblue;
     line-height: 1.6;
 }
+header{
+    background-color: rgb(6, 6, 40);
+    padding: 1rem;
+    display: flex;
+}
+
+.link{
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
 .main {
-    background-color: #210505;
     padding: 20px;
     text-align: center;
+    background-image: url('WhatsApp Image 2026-09-28 at 09.48.33.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 .main p {
     font-size: 2.5rem;
-    color: aqua;
+    color: rgb(9, 7, 56);
     margin-bottom: 10px;
+    font-weight: bolder;
 }
+img {
+    max-width: 100%;
+    width:50%;
+    height: 400px;
+}
+.team-h1{
+    text-align:center;
+    color: rgb(6, 6, 40);
+}
+
+.main-container{
+    height: 100vh;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin:20px;
+    height: 420px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.container p {
+    color: black;
+    font-weight:bolder;
+}
+.container button{
+    background-color: rgb(19, 147, 19);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+}
+
